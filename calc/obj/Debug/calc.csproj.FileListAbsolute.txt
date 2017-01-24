@@ -1,0 +1,10 @@
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\bin\Debug\calc.exe.config
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\bin\Debug\calc.exe
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\bin\Debug\calc.pdb
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\obj\Debug\calc.Salary.resources
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\obj\Debug\calc.Properties.Resources.resources
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\obj\Debug\calc.csproj.GenerateResource.Cache
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\obj\Debug\calc.exe
+d:\users\jin6_li\documents\visual studio 2012\Projects\calc\calc\obj\Debug\calc.pdb
+D:\Users\Jin6_Li\Documents\Visual Studio 2012\Projects\calc\calc\obj\Debug\calc.csprojResolveAssemblyReference.cache
+D:\Users\Jin6_Li\Documents\Visual Studio 2012\Projects\calc\calc\obj\Debug\calc.T_import.resources
