@@ -242,7 +242,7 @@
             this.MainMenuStrip = this.menus;
             this.Name = "Salary";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "calc";
+            this.Text = "这是我的加班";
             this.Load += new System.EventHandler(this.Salary_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
