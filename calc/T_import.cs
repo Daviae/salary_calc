@@ -22,7 +22,7 @@ namespace calc
             pf.AddFontFile("myfont.ttf");
             fontawesome = pf.Families[0];
         }
-        Regex reg = new Regex(@"\d\.\d");
+        Regex reg = new Regex(@"\d+\.\d+");
         private void button1_Click(object sender, EventArgs e)
         {
             MatchCollection mc=reg.Matches(this.richTextBox1.Text);
