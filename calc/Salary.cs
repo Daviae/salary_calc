@@ -36,7 +36,7 @@ namespace calc
                 if (Convert.ToDouble(txtTy2.Value) > 0)
                     ot2 = Convert.ToDouble(txtTy2.Text);
                 if (Convert.ToDouble(txtTy3.Value) > 0)
-                    ot3 = Convert.ToDouble(txtTy2.Text);
+                    ot3 = Convert.ToDouble(txtTy3.Text);
                 basesalary = Convert.ToDouble(txtBase.Text);
             }
             catch (Exception)
@@ -49,9 +49,10 @@ namespace calc
             SetRichText("您的時薪為:" + Math.Round(s.salaryPHour(), 2), defaultcolor);
             SetRichText("最高薪資:" + x, defaultcolor);
             SetRichText("實際薪資:" + Math.Round(s.salaryPMonth(), 2).ToString(), Color.Red);
-            SetRichText("總加班時長(單位小時):" + (ot1 + ot2).ToString(), defaultcolor);
+            SetRichText("總加班時長(單位小時):" + (ot1 + ot2+ot3).ToString(), defaultcolor);
             SetRichText("一類加班(單位小時):" + ot1, defaultcolor);
             SetRichText("二類加班(單位小時):" + ot2, defaultcolor);
+            SetRichText("三類加班(單位小時):" + ot3, defaultcolor);
             SetRichText("您的加班工資為" + Math.Round(s.OTsalary(), 2), defaultcolor);
         }
         private void button1_Click(object sender, EventArgs e)
@@ -187,7 +188,7 @@ namespace calc
             this.overtimeTy3 = Ty3;
         }
         public double basesalary;
-        public double worktime = 21.5;
+        public double worktime = 21.75;
         public double overtimeTy1;
         public double overtimeTy2;
         public double overtimeTy3;

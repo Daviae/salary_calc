@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Salary));
             this.txtBase = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtTy3 = new System.Windows.Forms.NumericUpDown();
@@ -235,7 +236,7 @@
             this.rtxtmenu.Name = "rtxtmenu";
             this.rtxtmenu.ShowCheckMargin = true;
             this.rtxtmenu.ShowImageMargin = false;
-            this.rtxtmenu.Size = new System.Drawing.Size(153, 104);
+            this.rtxtmenu.Size = new System.Drawing.Size(109, 82);
             this.rtxtmenu.Text = "菜单";
             this.rtxtmenu.Opening += new System.ComponentModel.CancelEventHandler(this.rtxtmenu_Opening);
             this.rtxtmenu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.rtxtmenu_MouseMove);
@@ -243,26 +244,26 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(105, 6);
             // 
             // cutbtn
             // 
             this.cutbtn.Name = "cutbtn";
-            this.cutbtn.Size = new System.Drawing.Size(152, 24);
+            this.cutbtn.Size = new System.Drawing.Size(108, 24);
             this.cutbtn.Text = "剪切";
             this.cutbtn.Click += new System.EventHandler(this.cutbtn_Click);
             // 
             // btncopy
             // 
             this.btncopy.Name = "btncopy";
-            this.btncopy.Size = new System.Drawing.Size(152, 24);
+            this.btncopy.Size = new System.Drawing.Size(108, 24);
             this.btncopy.Text = "复制";
             this.btncopy.Click += new System.EventHandler(this.btncopy_Click);
             // 
             // btnparse
             // 
             this.btnparse.Name = "btnparse";
-            this.btnparse.Size = new System.Drawing.Size(152, 24);
+            this.btnparse.Size = new System.Drawing.Size(108, 24);
             this.btnparse.Text = "粘贴";
             this.btnparse.Click += new System.EventHandler(this.btnparse_Click);
             // 
@@ -291,6 +292,7 @@
             this.Controls.Add(this.txtBase);
             this.Controls.Add(this.menus);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menus;
             this.Name = "Salary";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
